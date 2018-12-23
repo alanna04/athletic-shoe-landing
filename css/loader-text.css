@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=UnifrakturCook:700');
+
+
+/*.loader {
+    position: absolute;
+   
+    
+}
+*/
+.loader h1 {
+    text-transform: uppercase;
+    font-size: 7em;
+    color: rgba(255, 255, 255, 0.5);
+    background-image: url(../img/smoke34.png);
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: left 0px top -100px;
+    }
+
+    30% {
+        background-position: left 400px top -75px;
+    }
+
+    65% {
+        background-position: left 800px top -50px;
+    }
+
+    100% {
+        background-position: left 1200px top -100px;
+    }
+}
